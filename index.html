@@ -1,24 +1,127 @@
-<!DOCTYPE html>.
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Noor - Amistad entre mujeres</title>
+
 <style>
-body{font-family:Arial,sans-serif;background:#fff8fc;color:#38283a;text-align:center;margin:0;padding:30px 18px}
-h1{color:#a34d82;font-size:42px}
-p{font-size:18px;line-height:1.5}
-.card{background:white;border-radius:20px;padding:24px;margin:24px auto;max-width:420px;box-shadow:0 4px 18px #ead9e5}
-button{background:#a34d82;color:white;border:0;border-radius:12px;padding:14px 20px;font-size:17px}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff5f9;
+  color: #332333;
+  text-align: center;
+}
+
+header {
+  background: white;
+  padding: 30px 15px;
+}
+
+h1 {
+  color: #a34d82;
+  font-size: 48px;
+}
+
+.card {
+  background: white;
+  margin: 25px 18px;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px #e8d5df;
+}
+
+h2 {
+  color: #a34d82;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+button {
+  background: #a34d82;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  font-size: 17px;
+  margin: 10px;
+}
+
+input, select {
+  width: 90%;
+  padding: 14px;
+  margin: 9px 0;
+  border: 1px solid #dfbfd0;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+footer {
+  padding: 25px;
+  color: #a34d82;
+}
 </style>
 </head>
+
 <body>
-<div class="card">
+
+<header>
 <h1>Noor 🌸</h1>
-<h2>Un lugar para mujeres</h2>
-<p>Conoce a otras mujeres, encuentra amigas y comparte momentos bonitos.</p>
-<p>Amistad · Respeto · Comunidad</p>
-<button onclick="alert('¡Bienvenida a Noor! Pronto podrás conocer nuevas amigas.')">Bienvenida a Noor</button>
+<p>Un lugar para mujeres</p>
+</header>
+
+<div class="card">
+<h2>Bienvenida a Noor</h2>
+<p>
+Conoce a otras mujeres, encuentra amigas,
+comparte experiencias y crea nuevas amistades.
+</p>
+<p>💗 Amistad · Respeto · Comunidad</p>
+<button onclick="document.getElementById('registro').scrollIntoView()">
+Quiero unirme
+</button>
 </div>
+
+<div class="card">
+<h2>🌷 ¿Qué encontrarás en Noor?</h2>
+<p>💬 Conversaciones y amistad</p>
+<p>🌍 Mujeres de diferentes países</p>
+<p>🤝 Nuevas conexiones</p>
+<p>🌸 Una comunidad de mujeres</p>
+</div>
+
+<div class="card" id="registro">
+<h2>Crear mi cuenta</h2>
+
+<p>Próximamente podrás registrarte.</p>
+
+<input type="text" placeholder="Tu nombre">
+<input type="email" placeholder="Tu correo electrónico">
+
+<select>
+<option>Selecciona tu idioma</option>
+<option>Español</option>
+<option>العربية - Árabe</option>
+<option>Français - Francés</option>
+<option>English - Inglés</option>
+<option>Nederlands - Holandés</option>
+</select>
+
+<button onclick="alert('¡Gracias por tu interés en Noor! El registro estará disponible próximamente.')">
+Quiero participar
+</button>
+</div>
+
+<footer>
+<p>Noor 🌸</p>
+<p>Amistad, respeto y comunidad.</p>
+<p>© 2026 Noor</p>
+</footer>
+
 </body>
 </html>
